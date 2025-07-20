@@ -3,10 +3,12 @@ import { Link } from 'react-router-dom';
 
 function UserLogin() {
   return (
-    <div className="d-flex justify-content-center align-items-center vh-100 bg-light">
-      <div className="card shadow-lg p-4 rounded-4" style={{ width: '100%', maxWidth: '400px' }}>
+    <div className="d-flex justify-content-center align-items-center vh-100 bg-light px-3">
+      <div className="card shadow-lg p-4 rounded-4 w-100" style={{ maxWidth: '400px' }}>
         <div className="card-body">
-          <h2 className="text-center text-primary fw-bold mb-4">Login to FlashDrop</h2>
+          <h2 className="text-center text-primary fw-bold mb-4 fs-2 fs-md-1">
+            Login to FlashDrop
+          </h2>
 
           <form>
             {/* Email */}
@@ -35,14 +37,14 @@ function UserLogin() {
 
             {/* Login Button */}
             <div className="d-grid mb-3">
-              <button type="submit" className="btn btn-primary rounded-pill py-2">
+              <button type="submit" className="btn btn-primary rounded-pill py-2 w-100">
                 Login
               </button>
             </div>
 
             {/* Sign Up Link */}
-            <p className="text-center text-muted">
-              Don’t have an account?{' '}
+            <p className="text-center text-muted mb-0">
+              Don't have an account?{' '}
               <Link to="/register" className="fw-bold text-decoration-none">
                 Sign Up
               </Link>

@@ -2,10 +2,10 @@ import React from 'react';
 
 function Contact() {
   return (
-    <div className="d-flex justify-content-center align-items-start min-vh-100 bg-light py-5">
-      <div className="card shadow-lg p-4 rounded-4" style={{ width: '100%', maxWidth: '600px' }}>
+    <div className="d-flex justify-content-center align-items-start min-vh-100 bg-light py-5 px-3">
+      <div className="card shadow-lg p-4 rounded-4 w-100" style={{ maxWidth: '600px' }}>
         <div className="card-body">
-          <h2 className="text-center text-primary fw-bold mb-4">Contact Us</h2>
+          <h2 className="text-center text-primary fw-bold mb-4 fs-2 fs-md-1">Contact Us</h2>
 
           <form>
             {/* Name */}
@@ -54,9 +54,9 @@ function Contact() {
               ></textarea>
             </div>
 
-           
+            {/* Submit Button */}
             <div className="d-grid">
-              <button type="submit" className="btn btn-primary rounded-pill py-2">
+              <button type="submit" className="btn btn-primary rounded-pill py-2 w-100">
                 Submit
               </button>
             </div>

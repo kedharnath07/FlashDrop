@@ -3,10 +3,12 @@ import { Link } from 'react-router-dom';
 
 function UserRegister() {
   return (
-    <div className="d-flex justify-content-center align-items-start min-vh-100 bg-light pt-0">
-      <div className="card shadow-lg p-4 rounded-4" style={{ width: '100%', maxWidth: '420px', marginTop: '20px' }}>
+    <div className="d-flex justify-content-center align-items-center vh-100 bg-light px-3">
+      <div className="card shadow-lg p-4 rounded-4 w-100" style={{ maxWidth: '420px' }}>
         <div className="card-body">
-          <h2 className="text-center text-primary fw-bold mb-4">Create an Account</h2>
+          <h2 className="text-center text-primary fw-bold mb-4 fs-2 fs-md-1">
+            Create an Account
+          </h2>
 
           <form>
             {/* Email */}
@@ -47,13 +49,13 @@ function UserRegister() {
 
             {/* Register Button */}
             <div className="d-grid mb-3">
-              <button type="submit" className="btn btn-primary rounded-pill py-2">
+              <button type="submit" className="btn btn-primary rounded-pill py-2 w-100">
                 Register
               </button>
             </div>
 
             {/* Login Link */}
-            <p className="text-center text-muted">
+            <p className="text-center text-muted mb-0">
               Already a user?{' '}
               <Link to="/login" className="fw-bold text-decoration-none">
                 Sign In

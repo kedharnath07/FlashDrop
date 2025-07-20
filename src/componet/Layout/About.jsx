@@ -5,10 +5,10 @@ function About() {
     <div className="container d-flex justify-content-center align-items-start min-vh-100 bg-light py-5">
       <div className="card shadow-lg p-4 rounded-4" style={{ maxWidth: '800px', width: '100%' }}>
         <div className="card-body">
-          <h2 className="text-center text-primary fw-bold mb-4">About eKart</h2>
+          <h2 className="text-center text-primary fw-bold mb-4">FlashDrop</h2>
 
           <p className="fs-5 text-muted">
-            <strong>eKart</strong> is a modern, user-friendly online shopping platform designed to offer a seamless and efficient shopping experience. Built with React and Bootstrap, it provides a clean interface and fast interactions for both customers and admins.
+            <strong>FlashDrop</strong> is a modern, user-friendly online shopping platform designed to offer a seamless and efficient shopping experience. Built with React and Bootstrap, it provides a clean interface and fast interactions for both customers and admins.
           </p>
 
           <hr />
